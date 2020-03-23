@@ -10,7 +10,7 @@ public class InputHandler {
 		commands = new HashMap<String, Command>();
 		commands.put("load" , new LoadCommand(document));
 		//commands.put("save", new SaveCommand(document));
-		//commands.put("spell" , new SpellCommand(document));
+		commands.put("spell" , new SpellCommand(document));
 		//commands.put("print" , new PrintCommand(document));
 	}
 	public void inputEntered (String str) {
