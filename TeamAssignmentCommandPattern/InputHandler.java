@@ -14,6 +14,7 @@ public class InputHandler implements Command {
 	}
 	public void inputEntered (String str) {
 		// call execute method from the map's value index whose key is string from parameter somehow?
-		commands.get(str);
+		Command runComm = commands.get(str);
+		runComm.execute();
 	}
 }
