@@ -12,7 +12,7 @@ public class InputHandler implements Command {
 		commands.put("spell" , SpellCommand);
 		commands.put("print" , PrintCommand);
 	}
-	public void InputEntered (String str) {
+	public void inputEntered (String str) {
 		// call execute method from the map's value index whose key is string from parameter somehow?
 		commands.get(str);
 	}
