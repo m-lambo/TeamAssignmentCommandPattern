@@ -1,4 +1,4 @@
-
+package TeamAssignmentCommandPattern;
 
 import java.util.Scanner;
 

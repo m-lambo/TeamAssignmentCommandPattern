@@ -1,3 +1,4 @@
+package TeamAssignmentCommandPattern;
 /**
  * Team [Object object] Briana Rovelli, Evan Bryer, Mitchell Lambert, and Nick Rubino 
  */

@@ -1,4 +1,4 @@
-
+package TeamAssignmentCommandPattern;
 
 public class Document {
 	String name;
