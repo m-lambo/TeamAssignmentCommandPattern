@@ -1,4 +1,4 @@
-package TeamAssignmentCommandPattern;
+
 
 public class SpellCommand implements Command {
     public Document document;

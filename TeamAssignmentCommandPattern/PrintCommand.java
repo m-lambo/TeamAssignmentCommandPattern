@@ -1,4 +1,4 @@
-package TeamAssignmentCommandPattern;
+
 
 public class PrintCommand implements Command{
 	public Document document;

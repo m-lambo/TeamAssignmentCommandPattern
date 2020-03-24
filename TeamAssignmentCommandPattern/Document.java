@@ -1,4 +1,4 @@
-package TeamAssignmentCommandPattern;
+
 
 public class Document {
 	String name;
@@ -17,27 +17,27 @@ public class Document {
 	 */
 	
 	public void load() {
-		System.out.println("Document is loaded into view.");
+		System.out.println("Document " + name + " is loaded into view.");
 	}
 	
 	/** public void save()
 	 * Prints that document is saving
 	 */
 	public void save() {
-		System.out.println("Document is being saved.");
+		System.out.println("Document " + name + " is being saved.");
 	}
 	
 	/** public void spell
 	 *  Prints that Document is being spell-checked
 	 */
 	public void spell() {
-		System.out.println("Document is being checked for spelling errors");
+		System.out.println("Document " + name + " is being checked for spelling errors");
 	}
 	
 	/** public void print()
 	 * Prints that Document is printing
 	 */
 	public void print() {
-		System.out.println("Document is printing.");
+		System.out.println("Document " + name + " is printing.");
 	}
 }

@@ -1,4 +1,4 @@
-package TeamAssignmentCommandPattern;
+
 
 public class SaveCommand implements Command {
 	public Document document;

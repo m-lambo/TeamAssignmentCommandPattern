@@ -1,4 +1,4 @@
-package TeamAssignmentCommandPattern;
+
 
 public class LoadCommand implements Command {
 	public Document document;
