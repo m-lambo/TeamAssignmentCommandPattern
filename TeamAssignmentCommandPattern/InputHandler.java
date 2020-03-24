@@ -11,7 +11,7 @@ public class InputHandler {
 		commands.put("load" , new LoadCommand(document));
 		commands.put("save", new SaveCommand(document));
 		commands.put("spell" , new SpellCommand(document));
-		//commands.put("print" , new PrintCommand(document));
+		commands.put("print" , new PrintCommand(document));
 	}
 	public void inputEntered (String str) {
 		// call execute method from the map's value index whose key is string from parameter somehow?

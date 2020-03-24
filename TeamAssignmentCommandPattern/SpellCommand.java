@@ -3,12 +3,12 @@ package TeamAssignmentCommandPattern;
 public class SpellCommand implements Command {
     public Document document;
 
-    /** public SpellCommand(Document document)
+    /** public SpellCommand(Document doc)
      * Sets document to given document
-     * @param document
+     * @param doc
      */
-    public SpellCommand (Document document) {
-        this.document = document;
+    public SpellCommand (Document doc) {
+        this.document = doc;
     }
     
     /** public void execute()
